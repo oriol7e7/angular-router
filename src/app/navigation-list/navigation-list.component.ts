@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   selector: 'app-navigation-list',
   styleUrl: './navigation-list.component.css',
   templateUrl: './navigation-list.component.html',

@@ -2,23 +2,29 @@
   <ul class="flex justify-center items-center gap-4">
     <li>
       <a
-        class="lg:text-xl text-sm transition-all duration-200 ease-in hover:brightness-110"
-        href="#inici"
+        class="lg:text-xl text-sm"
+        routerLink="/"
+        routerLinkActive="text-yellow-300 underline"
+        [routerLinkActiveOptions]="{ exact: true }"
         >Inici</a
       >
     </li>
     <li>
-      <a
-        class="lg:text-xl text-sm transition-all duration-200 ease-in hover:brightness-110"
-        href="#hero"
-        >Hero</a
+      <a class="lg:text-xl text-sm" routerLink="/modes" routerLinkActive="text-yellow-300 underline"
+        >Modes</a
+      >
+    </li>
+    <li>
+      <a class="lg:text-xl text-sm" routerLink="/info" routerLinkActive="text-yellow-300 underline"
+        >Més informació</a
       >
     </li>
     <li>
       <a
-        class="lg:text-xl text-sm transition-all duration-200 ease-in hover:brightness-110"
-        href="#info"
-        >Més informació</a
+        class="lg:text-xl text-sm"
+        routerLink="/contact"
+        routerLinkActive="text-yellow-300 underline"
+        >Contacta</a
       >
     </li>
     <li>
